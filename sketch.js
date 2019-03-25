@@ -10,6 +10,7 @@ function setup() {
   pickLocation();
 }
 
+// Randomly gets a location for the food to spawn
 function pickLocation() {
   let cols = floor(width / scl);
   let rows = floor(height / scl);
